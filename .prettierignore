@@ -1,0 +1,38 @@
+# Dependências
+node_modules
+
+# Build outputs
+android
+ios
+build
+dist
+
+# Cache do Metro bundler
+.expo
+.expo-shared
+.cache
+*.expo.js
+
+# Configurações do editor
+.vscode
+.idea
+*.iml
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados
+*.snap
+*.lock
+package-lock.json
+yarn.lock
+
+# Assets que não precisam de formatação
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ttf
+*.otf
+*.mp4
