@@ -1,15 +1,12 @@
-import { StatusBar, useColorScheme } from 'react-native'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { theme } from '@/theme'
 import { Home } from '@/screens/Home'
+import { ThemeProvider } from 'styled-components/native'
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark'
-
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+    <ThemeProvider theme={theme}>
       <Home />
-    </SafeAreaProvider>
+    </ThemeProvider>
   )
 }
 

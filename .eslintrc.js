@@ -25,8 +25,16 @@ module.exports = {
     'react-native/no-inline-styles': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'react-native/sort-styles': 'off',
+    'react-native/no-raw-text': 'off',
     '@typescript-eslint/no-require-imports': 'off',
     quotes: ['error', 'single', { avoidEscape: true }],
+    '@typescript-eslint/no-empty-object-type': [
+      'error',
+      {
+        allowInterfaces: 'always',
+      },
+    ],
+    'react/prop-types': 'off',
   },
   settings: { react: { version: 'detect' } },
 }
