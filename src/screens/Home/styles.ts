@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 import styled from 'styled-components/native'
-
+import { Platform } from 'react-native'
 interface IHomeProps {
   isActiveClearAll: boolean
 }
@@ -79,7 +79,9 @@ export const Separate = styled.View`
   background: #e4e6ec;
 `
 
-export const ItemWrapper = styled.View``
+export const ItemWrapper = styled.View`
+  margin-bottom: ${Platform.OS === 'ios' ? 60 : 50}px;
+`
 
 export const EmptyContainer = styled.View`
   display: flex;
@@ -94,5 +96,3 @@ export const EmptyLabel = styled.Text`
   font-weight: 400;
   color: #828282;
 `
-
-export const TesteText = styled.Text``

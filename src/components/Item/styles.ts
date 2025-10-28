@@ -10,13 +10,10 @@ export const Container = styled.View`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 34px;
-
   border-bottom-width: 1px;
   border-bottom-color: #e4e6ec;
-  padding: 0 0 16px 0;
-  margin-top: 16px;
 `
 
 export const ButtonPurchased = styled.TouchableOpacity`
@@ -25,6 +22,7 @@ export const ButtonPurchased = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   gap: 5px;
+  margin: 16px 0;
 `
 
 export const LogoImage = styled.Image`
@@ -48,4 +46,6 @@ export const Label = styled.Text<IItemProps>`
         `}
 `
 
-export const ButtonDelete = styled.TouchableOpacity``
+export const ButtonDelete = styled.TouchableOpacity`
+  margin: 16px 0;
+`

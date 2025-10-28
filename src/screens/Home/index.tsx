@@ -98,6 +98,10 @@ export const Home = () => {
     )
   }, [itemList, activeButtonFilter, recentlyChanged])
 
+  const hasEmptySpace = (label: string) => {
+    return Boolean(label && label.trim().length > 0)
+  }
+
   return (
     <S.Container>
       <S.HeaderContainer>
@@ -115,7 +119,7 @@ export const Home = () => {
         <Button
           buttonText="Adicionar"
           onPress={handleAddItem}
-          disabled={!labelItem}
+          disabled={!hasEmptySpace(labelItem)}
         />
       </S.HeaderContainer>
 
