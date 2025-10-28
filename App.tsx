@@ -1,15 +1,22 @@
-import { StatusBar, useColorScheme } from 'react-native'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { theme } from '@/theme'
 import { Home } from '@/screens/Home'
+import { ThemeProvider } from 'styled-components/native'
+import RNBootSplash from 'react-native-bootsplash'
+import { useEffect } from 'react'
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark'
+  useEffect(() => {
+    const hideSplash = async () => {
+      await RNBootSplash.hide({ fade: false })
+    }
+
+    hideSplash()
+  }, [])
 
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+    <ThemeProvider theme={theme}>
       <Home />
-    </SafeAreaProvider>
+    </ThemeProvider>
   )
 }
 
