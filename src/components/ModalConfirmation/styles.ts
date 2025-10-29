@@ -7,7 +7,7 @@ interface ModalConfirmationProps {
 
 export const Container = styled.View`
   width: 100%;
-  background: #ffffff;
+  background: ${({ theme }) => theme.colors.backgroundWhite};
   border-radius: 16px;
   padding: 24px;
 `
@@ -48,18 +48,18 @@ export const Button = styled.TouchableOpacity<ModalConfirmationProps>`
   background: red;
   padding: 8px 0;
 
-  ${({ type }) =>
+  ${({ type, theme }) =>
     type === 'CANCEL'
       ? css`
-          background: red;
+          background: ${theme.colors.backgroundButtonRed};
         `
       : css`
-          background: #2c46b1;
+          background: ${theme.colors.backgroundButtonBlue};
         `}
 `
 
 export const ButtonText = styled.Text`
   font-size: 14px;
   font-weight: 600;
-  color: #ffffff;
+  color: ${({ theme }) => theme.colors.textWhite};
 `

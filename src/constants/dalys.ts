@@ -1,0 +1,5 @@
+export const DELAYS = {
+  STATUS_CHANGE: 900,
+  REMOVE_ITEM: 500,
+  CLOSE_MODAL_ALERT: 2000,
+} as const
