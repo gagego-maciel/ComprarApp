@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should match snapshot 1`] = `
+<View
+  style={
+    {
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#000000",
+        "fontSize": 14,
+        "fontWeight": "600",
+        "marginBottom": 4,
+      }
+    }
+  >
+    Snapshot Label
+  </Text>
+  <TextInput
+    accessibilityLabel="Snapshot Label"
+    onChangeText={[MockFunction]}
+    placeholder="Snapshot Placeholder"
+    placeholderTextColor="#74798B"
+    style={
+      {
+        "backgroundColor": "#ffffff",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderColor": "#c3c5cb",
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "borderWidth": 1,
+        "color": "#000000",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "height": 48,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+    testID="Snapshot Label"
+    value="Snapshot"
+  />
+</View>
+`;

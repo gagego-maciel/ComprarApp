@@ -1,8 +1,8 @@
 import * as S from './styles'
 
-interface IInputProps {
+export interface IInputProps {
   label?: string
-  placeholderText?: string
+  placeholder?: string
   value: string
   onChangeText: (value: string) => void
   maxLength?: number
@@ -10,7 +10,7 @@ interface IInputProps {
 
 export const Input: React.FC<IInputProps> = ({
   label,
-  placeholderText,
+  placeholder,
   value,
   onChangeText,
   maxLength,
@@ -19,11 +19,13 @@ export const Input: React.FC<IInputProps> = ({
     <S.Container>
       {label && <S.InputLabel>{label}</S.InputLabel>}
 
-      <S.InputField
-        placeholder={placeholderText}
+      <S.Field
+        testID={label || 'input-field'}
+        placeholder={placeholder}
         value={value}
         onChangeText={onChangeText}
         maxLength={maxLength}
+        accessibilityLabel={label || placeholder}
       />
     </S.Container>
   )

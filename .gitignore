@@ -64,6 +64,7 @@ yarn-error.log
 .metro-health-check*
 
 # testing
+.jest
 /coverage
 
 # Yarn

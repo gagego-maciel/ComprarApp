@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonFilter Component should match snapshot for all statuses 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-ALL"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={true}
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Todos
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-ALL"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={false}
+      style={
+        {
+          "color": "#A0A0A0",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Todos
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-PENDING"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={true}
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Pendentes
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-PENDING"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={false}
+      style={
+        {
+          "color": "#A0A0A0",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Pendentes
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-PURCHASED"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={true}
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Comprados
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 5,
+        "height": 18,
+        "maxWidth": 90,
+        "opacity": 1,
+      }
+    }
+    testID="button-PURCHASED"
+  >
+    <Image
+      source="icon"
+      style={{}}
+    />
+    <Text
+      isActive={false}
+      style={
+        {
+          "color": "#A0A0A0",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Comprados
+    </Text>
+  </View>,
+]
+`;
