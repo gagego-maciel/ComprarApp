@@ -9,25 +9,25 @@ export const Container = styled.TouchableOpacity<IButton>`
   width: 100%;
   height: 48px;
   padding: 0 20px;
-  background: #2c46b1;
+  background: ${({ theme }) => theme.colors.backgroundButtonBlue};
   border-radius: 8px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  ${({ isDisabled }) =>
+  ${({ isDisabled, theme }) =>
     !isDisabled
       ? css`
-          color: #2c46b1;
+          background: ${theme.colors.backgroundButtonBlue};
         `
       : css`
-          opacity: 0.4;
+          opacity: 0.5;
         `}
 `
 
 export const ButtonText = styled.Text`
-  color: #ffffff;
+  color: ${({ theme }) => theme.colors.textWhite};
   font-size: 16px;
   font-weight: 600;
 `
