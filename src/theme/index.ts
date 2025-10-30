@@ -7,6 +7,12 @@ export const theme = {
     backgroundButtonBlue: '#2c46b1',
     backgroundButtonRed: '#E53E3E',
     text: '#E1E1E6',
+    textBlack: '#000000',
     textWhite: '#ffffff',
+    textGray: '#A0A0A0',
+
+    border: '#c3c5cb',
+
+    placeHolderInput: '#74798B',
   },
 }

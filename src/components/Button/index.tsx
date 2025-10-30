@@ -12,7 +12,12 @@ export const Button: React.FC<IButtonProps> = ({
   disabled,
 }) => {
   return (
-    <S.Container onPress={onPress} disabled={disabled} isDisabled={!!disabled}>
+    <S.Container
+      accessibilityRole="button"
+      onPress={onPress}
+      disabled={disabled}
+      isDisabled={!!disabled}
+    >
       <S.ButtonText>{buttonText}</S.ButtonText>
     </S.Container>
   )

@@ -18,13 +18,13 @@ export const ButtonText = styled.Text<IButtonFilter>`
   font-size: 12px;
   font-weight: 500;
 
-  ${({ isActive }) =>
+  ${({ isActive, theme }) =>
     isActive
       ? css`
-          color: #000000;
+          color: ${theme.colors.textBlack};
         `
       : css`
-          color: #a0a0a0;
+          color: ${theme.colors.textGray};
         `}
 `
 

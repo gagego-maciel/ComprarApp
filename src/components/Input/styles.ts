@@ -2,26 +2,26 @@ import styled from 'styled-components/native'
 
 export const Container = styled.View`
   width: 100%;
-  display: flex;
 `
 
 export const InputLabel = styled.Text`
   font-size: 14px;
   font-weight: 600;
-  color: #666;
+  color: ${({ theme }) => theme.colors.textBlack};
   margin-bottom: 4px;
 `
 
-export const InputField = styled.TextInput.attrs({
-  placeholderTextColor: '#74798B',
-})`
+export const Field = styled.TextInput.attrs((prop) => ({
+  placeholderTextColor: prop.theme.colors.placeHolderInput,
+}))`
   width: 100%;
   height: 48px;
   padding: 0 16px;
   border-width: 1px;
-  border-color: #c3c5cb;
+  border-color: ${({ theme }) => theme.colors.border};
   border-radius: 8px;
   font-size: 16px;
-  color: #74798b;
-  background-color: #ffffff;
+  font-weight: 500;
+  color: ${({ theme }) => theme.colors.textBlack};
+  background-color: ${({ theme }) => theme.colors.backgroundWhite};
 `
