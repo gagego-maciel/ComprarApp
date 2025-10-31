@@ -12,6 +12,7 @@ export const theme = {
     textGray: '#A0A0A0',
 
     border: '#c3c5cb',
+    divider: '#e4e6ec',
 
     placeHolderInput: '#74798B',
   },

@@ -1,7 +1,11 @@
 import type { TStatus } from '@/types/status'
 import * as S from './styles'
 
-interface IItemProps {
+import pendenteIcon from '@/assets/pendente-icon.png'
+import compradosIcon from '@/assets/comprados-icon.png'
+import deleteIcon from '@/assets/delete-icon.png'
+
+export interface IItemProps {
   status: TStatus
   label: string
   onPressCompleted?: () => void
@@ -17,19 +21,19 @@ export const Item: React.FC<IItemProps> = ({
   return (
     <S.Container>
       <S.LabelWrapper>
-        <S.ButtonPurchased onPress={onPressCompleted}>
+        <S.ButtonPurchased onPress={onPressCompleted} testID="button-purchased">
           {status === 'PENDING' ? (
-            <S.LogoImage source={require('@/assets/pendente-icon.png')} />
+            <S.LogoImage source={pendenteIcon} />
           ) : (
-            <S.LogoImage source={require('@/assets/comprados-icon.png')} />
+            <S.LogoImage source={compradosIcon} />
           )}
 
           <S.Label isPurchased={status}>{label}</S.Label>
         </S.ButtonPurchased>
       </S.LabelWrapper>
 
-      <S.ButtonDelete onPress={onPressRemoveItem}>
-        <S.LogoImage source={require('@/assets/delete-icon.png')} />
+      <S.ButtonDelete onPress={onPressRemoveItem} testID="button-delete">
+        <S.LogoImage source={deleteIcon} />
       </S.ButtonDelete>
     </S.Container>
   )
