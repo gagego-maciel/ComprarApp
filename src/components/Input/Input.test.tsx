@@ -1,4 +1,3 @@
-// __tests__/Input.test.tsx
 import React from 'react'
 import { theme } from '@/theme'
 import { Input, type IInputProps } from '../Input'

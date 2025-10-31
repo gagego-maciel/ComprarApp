@@ -2,7 +2,7 @@ import { css } from 'styled-components'
 import styled from 'styled-components/native'
 import type { TStatus } from '@/types/status'
 
-interface IItemProps {
+interface ILabelProps {
   isPurchased: TStatus
 }
 
@@ -13,7 +13,7 @@ export const Container = styled.View`
   align-items: center;
   width: 100%;
   border-bottom-width: 1px;
-  border-bottom-color: #e4e6ec;
+  border-bottom-color: ${({ theme }) => theme.colors.divider};
 `
 
 export const ButtonPurchased = styled.TouchableOpacity`
@@ -32,7 +32,7 @@ export const LogoImage = styled.Image`
 
 export const LabelWrapper = styled.View``
 
-export const Label = styled.Text<IItemProps>`
+export const Label = styled.Text<ILabelProps>`
   font-size: 14px;
   font-weight: 500;
 
