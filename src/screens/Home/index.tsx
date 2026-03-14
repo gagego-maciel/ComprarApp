@@ -37,7 +37,7 @@ export const Home = () => {
 
         <S.InputContainer>
           <Input
-            placeholder="O que você precisa comprar?"
+            placeholder="O que você precisa comprar agora?"
             value={labelItem}
             onChangeText={setLabelItem}
             maxLength={35}
