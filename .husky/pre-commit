@@ -1,9 +1,6 @@
 npx lint-staged
-
 yarn lint
-
 yarn typecheck
-
+yarn test --bail --passWithNoTests
 yarn format:check
-
 yarn test
