@@ -7,6 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint . --ext .js,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "format:check": "prettier --check \"src/**/*.{js,ts,tsx,md,json}\"",
     "start": "react-native start",
     "test": "jest --verbose",
     "test:coverage": "jest --coverage --verbose",
