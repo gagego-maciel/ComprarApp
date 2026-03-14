@@ -1,0 +1,8 @@
+# Code owners for the repository.
+# Any pull request touching these paths will require review from the listed owners.
+
+# Example: make you the owner of the entire repo
+* @gagego-maciel
+
+# Optional: restrict specific folders to specific owners
+# src/components/ @another-owner
