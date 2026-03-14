@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged
+
+# Run tests only for changed files (if any)
+changed_files=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(js|jsx|ts|tsx)$' || true)
+if [ -n "$changed_files" ]; then
+  echo "Running jest for changed files..."
+  echo "$changed_files" | xargs yarn test --findRelatedTests --runInBand
+fi
