@@ -6,7 +6,7 @@ on:
 
 jobs:
   lint-and-test:
-    name: Lint & Test
+    name: Lint e Test
     runs-on: ubuntu-latest
 
     steps:
